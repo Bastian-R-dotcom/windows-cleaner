@@ -8,14 +8,14 @@ It doesn't break :
 - The user's ability to automatically log in to website and app accounts,
 - The behavior of Windows and other programs.
 
-
 ## Get started
 
-##### 1. Download the script from an official release of the Windows Cleaner repository : https://github.com/Bastian-R-dotcom/windows-cleaner/releases,
-##### 2. Place the .bat file on your desktop so you can easily access it, 
-##### 3. Open Command Prompt as an administrator,
-##### 4. Navigate to your desktop folder by typing the following command in Command Prompt : `cd /d "%USERPROFILE%\Desktop"`,
-##### 5. Run the script by typing the following command in Command Prompt : `<script_name>.bat`.
+#### 1. Download the script from an official release of the Windows Cleaner repository : https://github.com/Bastian-R-dotcom/windows-cleaner/releases,
+#### 2. Place the .bat file on your desktop so you can easily access it, 
+#### 3. Open Command Prompt as an administrator,
+#### 4. Navigate to your desktop folder by typing the following command in Command Prompt : `cd /d "%USERPROFILE%\Desktop"`,
+#### 5. Run the script by typing the following command in Command Prompt : `<script_name>.bat`.
+
 ## Contributing as a user
 
 Contributions are always welcome!
