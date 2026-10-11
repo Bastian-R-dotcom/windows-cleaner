@@ -1,0 +1,80 @@
+name: Bug report
+description: Report a problem with the windows cleaner.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug!
+        Please fill in as much as you can. It helps a lot to reproduce and fix the problem.
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: You can find it in the .bat file title.
+      placeholder: e.g. v1.0.0
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11
+        - Windows 10
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: windows-edition
+    attributes:
+      label: Windows edition
+      options:
+        - Home
+        - Pro (Professional)
+        - Enterprise
+        - Education
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: windows-edition-other
+    attributes:
+      label: Other Windows edition
+      description: If you selected "Other" above, please specify your Windows edition here. Otherwise, leave this empty.
+      placeholder: e.g. Pro for Workstations, IoT Enterprise, LTSC
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem.
+      placeholder: Tell us what you saw.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the app
+        2. Click on ...
+        3. See the error
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Drag and drop screenshots or paste log text here. Please remove any personal information first.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and this has not been reported yet
+          required: true
