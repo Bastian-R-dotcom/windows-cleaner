@@ -3,6 +3,16 @@
 
 A powerful Windows cleaner that allows anyone to clean their computer safely.
 
+In addition to Windows, it also takes care of the following applications :
+- Google chrome
+- Edge
+- Brave
+- Visual studio code
+- Steam
+- Discord
+- Ea Desktop
+- Epic games
+
 It doesn't break : 
 - Any personal user data (documents, photos, downloads, etc.),
 - The user's ability to automatically log in to website and app accounts,
@@ -18,7 +28,7 @@ It doesn't break :
 
 ## Contributing as a user
 
-Contributions are always welcome!
+Contributions are always welcome !
 
 If you encounter any bugs while using Windows Cleaner or have ideas for new features, feel free to open a new issue here: https://github.com/Bastian-R-dotcom/windows-cleaner/issues.
 
@@ -33,17 +43,17 @@ https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.2/Git-2
 All following commands must be executed within this application.
 
 #### 2. Fork and clone
-Click **Fork** (top right of this page) to create your own copy of the project. Then click **Code** on your fork, copy the link, and run:
+Click **Fork** (top right of this page) to create your own copy of the project. Then click **Code** on your fork, copy the link, and run :
 
     git clone <the-link-you-copied>
 
 #### 3. Create a branch
-A branch is a separate workspace for your change. Name it `fix/...` for a bug fix or `feature/...` for a new feature:
+A branch is a separate workspace for your change. Name it `fix/...` for a bug fix or `feature/...` for a new feature :
 
     git checkout -b fix/temp-files-cleanup
 
 #### 4. Make and test your changes
-Edit the files, then run the cleaner and check that it:
+Edit the files, then run the cleaner and check that it :
 - **does not delete personal user data** (documents, photos, downloads, etc.),
 - **does not log users out** of their website and app accounts,
 - **does not break Windows or other programs**.
@@ -51,11 +61,11 @@ Edit the files, then run the cleaner and check that it:
 Ideally, test on a virtual machine or a spare PC, not on your main computer.
 
 #### 5. Commit and push
-Save your changes with a short message, then upload your branch to your fork:
+Save your changes with a short message, then upload your branch to your fork :
 
     git add .
     git commit -m "Fix temp files cleanup"
-    git push origin fix/temp-files-cleanup
+    git push -u origin fix/temp-files-cleanup
 
 #### 6. Open a pull request
 On your fork, click **Compare & pull request** and explain **what you changed** and **why**. Your work is reviewed before it is merged, so don't worry about mistakes.
