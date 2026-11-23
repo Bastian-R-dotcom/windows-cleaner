@@ -18,6 +18,13 @@ It doesn't break :
 - The user's ability to automatically log in to website and app accounts,
 - The behavior of Windows and other programs.
 
+Since version 1.0.3 Windows Cleaner detects installed drives and reports their health / performance information.
+
+Supported drive types
+- NVMe SSDs
+- SATA SSDs
+- SATA HDDs
+
 ## Get started
 
 #### 1. Download the script from an official release of the Windows Cleaner repository : https://github.com/Bastian-R-dotcom/windows-cleaner/releases,
